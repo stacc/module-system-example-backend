@@ -1,9 +1,9 @@
 import express from "express"
-const { MY_NAME } = process.env
+const { myName, secret } = process.env
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send(`Hello, ${MY_NAME}!`)
+  res.send(`Hello, ${myName}! The password is ${secret}`)
 })
 
 app.listen(3000)
