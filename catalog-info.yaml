@@ -5,6 +5,6 @@ metadata:
   namespace: module-system
   description: Example backend component referred to in getting started tutorial
 spec:
-  type: m-component-backend
+  type: stacc-module-component-backend
   lifecycle: experimental
   owner: team-enable
