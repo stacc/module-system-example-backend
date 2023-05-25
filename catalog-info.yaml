@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-backend-component
+  namespace: module-system
+  description: Example backend component referred to in getting started tutorial
+spec:
+  type: m-component-backend
+  lifecycle: experimental
+  owner: team-enable
